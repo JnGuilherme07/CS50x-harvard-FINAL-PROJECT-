@@ -1,0 +1,23 @@
+{
+  "name": "future-fest",
+  "version": "1.0.0",
+  "description": "Ecoverse is a web-based project developed as part of the CS50x course, designed to raise awareness about air quality and environmental health in Brazil. The platform allows users to select a Brazilian state and instantly generate an air quality report using real-time or simulated environmental data. The goal is to inform the population about pollution levels and demonstrate how artificial intelligence and web technologies can be used to monitor environmental conditions effectively.",
+  "main": "script.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "chalk": "^5.6.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2",
+    "ora": "^9.0.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
